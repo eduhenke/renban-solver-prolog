@@ -1,4 +1,5 @@
-# renban problems
+% renban problems
+
 
 board(test, [
 	[C00, C10, C20],
@@ -10,6 +11,8 @@ board(test, [
 	[C02, C12, C22]
 ]).
 
+
+% https://www.janko.at/Raetsel/Renban/001.a.htm
 board(1, [
 	[C00, C10, C20, C30, C40, C50],
 	[C01, C11,  6 , C31,  5 , C51],
@@ -18,9 +21,9 @@ board(1, [
 	[ 6 , C14, C24, C34, C44, C54],
 	[C05, C15, C25,  5 , C45,  6 ]
 ], [
-	[C00, C01, C11, 6  , C22],
+	[C00, C01, C11, 6 , C22],
 	[C10],
-	[C20, C30, C31, 5  ],
+	[C20, C30, C31, 5 ],
 	[C40],
 	[C50, C51],
 	[ 3 , C03,  2 ],
